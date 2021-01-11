@@ -1,6 +1,6 @@
 from django.contrib import admin
-#from .models import TestObject
+from .models import userAccount
 
 # Register your models here.
 
-#admin.site.register(TestObject)
+admin.site.register(userAccount)
