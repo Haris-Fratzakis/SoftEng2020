@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from pages.views import monthly_bill_view, signup_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('monthly_bill/', monthly_bill_view, name="monthly_bill"),
+    path('signup/', signup_view, name="signup"),
 ]
