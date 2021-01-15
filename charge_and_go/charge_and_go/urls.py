@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from pages.views import monthly_bill_view, signup_view
+from front_end.views import monthly_bill_view, signup_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
